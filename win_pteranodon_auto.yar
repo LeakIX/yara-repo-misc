@@ -170,5 +170,5 @@ rule win_pteranodon_auto {
             //   898598f6ffff         | mov                 dword ptr [ebp - 0x968], eax
 
     condition:
-        7 of them and filesize &lt; 499712
+        7 of them and filesize < 499712
 }
